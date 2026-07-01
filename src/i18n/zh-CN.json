@@ -1,0 +1,163 @@
+{
+  "app": {
+    "name": "MyOrbit",
+    "footer": "© 2026 MyOrbit.top"
+  },
+  "header": {
+    "addWidget": "添加组件",
+    "importJSON": "导入 JSON",
+    "exportJSON": "导出 JSON",
+    "importChrome": "导入 Chrome 书签",
+    "more": "更多",
+    "lock": "锁定",
+    "unlock": "解锁",
+    "switchToLight": "切换到亮色模式",
+    "switchToDark": "切换到暗色模式"
+  },
+  "search": {
+    "placeholder": "搜索书签、关键词、RSS...",
+    "searchWith": "使用"
+  },
+  "pin": {
+    "title": "输入 PIN 码",
+    "description": "输入 PIN 码以访问私有组件",
+    "incorrect": "PIN 码错误，请重试。",
+    "unlock": "解锁",
+    "skip": "跳过，继续浏览",
+    "unlocked": "解锁成功",
+    "locked": "已锁定"
+  },
+  "widget": {
+    "add": "添加组件",
+    "edit": "编辑组件",
+    "delete": "删除组件",
+    "deleteConfirm": "删除 \"{title}\"？",
+    "title": "标题",
+    "icon": "图标",
+    "private": "私有组件",
+    "privateHint": "需要 PIN 码才能查看",
+    "type": "组件类型",
+    "typeBookmark": "书签",
+    "typeRSS": "RSS 订阅",
+    "create": "创建组件",
+    "save": "保存修改",
+    "noWidgets": "暂无组件",
+    "noWidgetsHint": "添加第一个组件开始使用",
+    "unknownType": "未知组件类型",
+    "created": "组件已创建",
+    "updated": "组件已更新",
+    "deleted": "组件已删除",
+    "titleRequired": "请输入标题",
+    "folderEmpty": "文件夹为空",
+    "addFolder": "添加文件夹"
+  },
+  "bookmark": {
+    "add": "添加书签",
+    "edit": "编辑书签",
+    "delete": "删除书签",
+    "deleteConfirm": "删除 \"{title}\"？",
+    "title": "标题",
+    "url": "网址",
+    "iconUrl": "图标网址（可选）",
+    "keywords": "关键词（逗号分隔）",
+    "noBookmarks": "暂无书签",
+    "addHint": "添加书签",
+    "added": "书签已添加",
+    "updated": "书签已更新",
+    "deleted": "书签已删除",
+    "titleUrlRequired": "标题和网址为必填项"
+  },
+  "rss": {
+    "addTab": "添加 RSS 标签",
+    "tabTitle": "标签标题",
+    "feedUrls": "订阅源网址",
+    "addFeed": "+ 添加另一个订阅源",
+    "createTab": "创建 RSS 标签",
+    "noItems": "暂无内容",
+    "refresh": "刷新",
+    "refreshFeeds": "刷新订阅源",
+    "noFeeds": "未配置 RSS 订阅源",
+    "addRSSHint": "添加 RSS 标签",
+    "tabCreated": "RSS 标签已创建",
+    "tabTitleRequired": "请输入标签标题",
+    "failedCreateTab": "创建标签失败",
+    "editTab": "编辑 RSS 标签",
+    "deleteTab": "删除标签",
+    "deleteTabConfirm": "删除标签 \"{title}\"？",
+    "tabDeleted": "标签已删除"
+  },
+  "folder": {
+    "title": "文件夹",
+    "rssInline": "文件夹中的 RSS 订阅将内联显示"
+  },
+  "importExport": {
+    "pinRequired": "请先解锁 PIN 码",
+    "exported": "数据导出成功",
+    "imported": "数据导入成功",
+    "importedBookmarks": "已导入 {count} 个书签文件夹",
+    "invalidJSON": "无效的 JSON 文件",
+    "failedImport": "导入文件失败",
+    "failedImportBookmarks": "导入书签失败"
+  },
+  "toast": {
+    "success": "成功",
+    "error": "错误",
+    "info": "提示"
+  },
+  "editMode": {
+    "enabled": "已进入编辑模式",
+    "disabled": "已退出编辑模式",
+    "pinRequired": "需要 PIN 码才能进入编辑模式"
+  },
+  "drawer": {
+    "addWidget": "添加组件",
+    "editWidget": "编辑组件",
+    "addBookmark": "添加书签",
+    "editBookmark": "编辑书签",
+    "addRSSTab": "添加 RSS 标签",
+    "editRSSTab": "编辑 RSS 标签",
+    "searchEngineManager": "管理搜索引擎"
+  },
+  "searchEngine": {
+    "manage": "管理搜索引擎",
+    "searchPlaceholder": "搜索书签或输入关键词...",
+    "dragHint": "拖拽排序",
+    "add": "添加自定义搜索引擎",
+    "edit": "编辑搜索引擎",
+    "delete": "删除搜索引擎",
+    "deleteConfirm": "确定要删除\"{name}\"？",
+    "hideConfirm": "确定要从列表中隐藏此内置引擎？",
+    "reset": "恢复默认",
+    "resetSuccess": "已恢复默认搜索引擎",
+    "added": "搜索引擎已添加",
+    "updated": "搜索引擎已更新",
+    "removed": "搜索引擎已移除",
+    "name": "名称",
+    "iconUrl": "图标 URL",
+    "searchUrl": "搜索 URL",
+    "searchUrlHint": "使用 %s 作为搜索关键词占位符",
+    "nameUrlRequired": "名称和搜索 URL 为必填项",
+    "urlPlaceholder": "例如: https://duckduckgo.com/?q=%s",
+    "iconPlaceholder": "例如: https://duckduckgo.com/favicon.ico",
+    "namePlaceholder": "例如: DuckDuckGo",
+    "urlMustContain": "搜索 URL 必须包含 %s 占位符",
+    "badgeSystem": "内置",
+    "badgeCustom": "自定义",
+    "noEngines": "暂无搜索引擎",
+    "save": "保存",
+    "cancel": "取消",
+    "confirm": "确定"
+  },
+  "drag": {
+    "moveSuccess": "移动成功",
+    "mergeSuccess": "合并为文件夹成功",
+    "mergeHint": "📂 合并",
+    "cannotMergeFolder": "只能合并书签，不能合并文件夹",
+    "onlyBookmarkWidget": "只能操作 Bookmark Widget",
+    "pinRequired": "需要 PIN 解锁",
+    "nodeNotFound": "找不到节点",
+    "moveFailed": "移动失败",
+    "onlyFromBookmarkWidget": "只能从 Bookmark Widget 移动",
+    "cannotMergeSelf": "不能合并自己"
+  }
+}

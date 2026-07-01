@@ -1,0 +1,1250 @@
+{
+  "meta": {
+    "version": 1,
+    "nextId": 2000
+  },
+  "settings": {
+    "language": "auto",
+    "theme": "dark"
+  },
+  "security": {
+    "pinEnabled": true,
+    "pinHash": "03ac674216f3e15c761ee1a5e255f067953623c8b388b4459e13f978d7c846f4"
+  },
+  "search": {
+    "searchEngines": [
+      {
+        "id": "google"
+      },
+      {
+        "id": "bing"
+      },
+      {
+        "id": "custom",
+        "name": "My Search",
+        "icon": "...",
+        "url": "https://...%s"
+      }
+    ]
+  },
+  "widgets": [
+    {
+      "id": 1,
+      "type": "bookmark",
+      "title": "AI Tools",
+      "icon": "Sparkles",
+      "order": 0,
+      "private": false,
+      "data": {
+        "tree": [
+          {
+            "id": 100,
+            "type": "bookmark",
+            "title": "ChatGPT",
+            "url": "https://chat.openai.com",
+            "description": "AI assistant powered by OpenAI's GPT models",
+            "icon": "https://chat.openai.com/favicon.ico",
+            "keywords": [
+              "ai",
+              "chat",
+              "gpt",
+              "openai"
+            ]
+          },
+          {
+            "id": 101,
+            "type": "bookmark",
+            "title": "Claude",
+            "url": "https://claude.ai",
+            "description": "AI assistant by Anthropic with advanced reasoning",
+            "icon": "https://claude.ai/favicon.ico",
+            "keywords": [
+              "ai",
+              "claude",
+              "anthropic",
+              "chat"
+            ]
+          },
+          {
+            "id": 102,
+            "type": "bookmark",
+            "title": "GitHub Copilot",
+            "url": "https://github.com/features/copilot",
+            "description": "AI pair programmer that helps you write code faster",
+            "icon": "https://github.com/favicon.ico",
+            "keywords": [
+              "ai",
+              "coding",
+              "copilot",
+              "github"
+            ]
+          },
+          {
+            "id": 103,
+            "type": "bookmark",
+            "title": "Midjourney",
+            "url": "https://www.midjourney.com",
+            "description": "AI image generation platform for creating art",
+            "icon": "https://www.midjourney.com/favicon.ico",
+            "keywords": [
+              "ai",
+              "image",
+              "art",
+              "generation"
+            ]
+          },
+          {
+            "id": 104,
+            "type": "bookmark",
+            "title": "Perplexity",
+            "url": "https://www.perplexity.ai",
+            "description": "AI-powered search engine with real-time answers",
+            "icon": "https://www.perplexity.ai/favicon.ico",
+            "keywords": [
+              "ai",
+              "search",
+              "research"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 2,
+      "type": "bookmark",
+      "title": "Development",
+      "icon": "Code2",
+      "order": 1,
+      "private": false,
+      "data": {
+        "tree": [
+          {
+            "id": 200,
+            "type": "folder",
+            "title": "Frontend",
+            "collapsed": false,
+            "children": [
+              {
+                "id": 201,
+                "type": "bookmark",
+                "title": "Vue.js Docs",
+                "url": "https://vuejs.org",
+                "description": "Progressive JavaScript Framework documentation",
+                "icon": "https://vuejs.org/favicon.ico",
+                "keywords": [
+                  "vue",
+                  "frontend",
+                  "framework",
+                  "docs"
+                ]
+              },
+              {
+                "id": 202,
+                "type": "bookmark",
+                "title": "TailwindCSS",
+                "url": "https://tailwindcss.com",
+                "description": "Utility-first CSS framework for rapid UI development",
+                "icon": "https://tailwindcss.com/favicon.ico",
+                "keywords": [
+                  "css",
+                  "tailwind",
+                  "design",
+                  "utility"
+                ]
+              },
+              {
+                "id": 203,
+                "type": "bookmark",
+                "title": "Vite",
+                "url": "https://vitejs.dev",
+                "description": "Next generation frontend tooling for fast development",
+                "icon": "https://vitejs.dev/favicon.ico",
+                "keywords": [
+                  "vite",
+                  "build",
+                  "tool",
+                  "bundler"
+                ]
+              },
+              {
+                "id": 204,
+                "type": "bookmark",
+                "title": "TypeScript",
+                "url": "https://www.typescriptlang.org",
+                "description": "Typed superset of JavaScript that compiles to clean JS",
+                "icon": "https://www.typescriptlang.org/favicon.ico",
+                "keywords": [
+                  "typescript",
+                  "language",
+                  "types"
+                ]
+              }
+            ]
+          },
+          {
+            "id": 205,
+            "type": "folder",
+            "title": "DevOps & Tools",
+            "collapsed": false,
+            "children": [
+              {
+                "id": 206,
+                "type": "bookmark",
+                "title": "GitHub",
+                "url": "https://github.com",
+                "description": "Platform for version control and collaboration",
+                "icon": "https://github.com/favicon.ico",
+                "keywords": [
+                  "github",
+                  "git",
+                  "code",
+                  "repository"
+                ]
+              },
+              {
+                "id": 207,
+                "type": "bookmark",
+                "title": "Docker Hub",
+                "url": "https://hub.docker.com",
+                "description": "Container registry and image repository",
+                "icon": "https://hub.docker.com/favicon.ico",
+                "keywords": [
+                  "docker",
+                  "container",
+                  "devops"
+                ]
+              },
+              {
+                "id": 208,
+                "type": "bookmark",
+                "title": "Vercel",
+                "url": "https://vercel.com",
+                "description": "Cloud platform for static sites and serverless functions",
+                "icon": "https://vercel.com/favicon.ico",
+                "keywords": [
+                  "vercel",
+                  "deploy",
+                  "hosting"
+                ]
+              },
+              {
+                "id": 209,
+                "type": "bookmark",
+                "title": "Netlify",
+                "url": "https://netlify.com",
+                "description": "Web hosting and serverless backend platform",
+                "icon": "https://netlify.com/favicon.ico",
+                "keywords": [
+                  "netlify",
+                  "deploy",
+                  "hosting"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 5,
+      "type": "rss",
+      "title": "Tech News",
+      "icon": "Newspaper",
+      "order": 2,
+      "private": false,
+      "data": {
+        "tabs": [
+          {
+            "id": 1,
+            "title": "Frontend",
+            "feeds": [
+              {
+                "id": 1,
+                "title": "Dev.to",
+                "url": "https://proxy.cors.sh/https://dev.to/feed",
+                "items": [],
+                "lastFetched": 0
+              },
+              {
+                "id": 2,
+                "title": "CSS-Tricks",
+                "url": "https://proxy.cors.sh/https://css-tricks.com/feed",
+                "items": [],
+                "lastFetched": 0
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "title": "AI & Tech",
+            "feeds": [
+              {
+                "id": 3,
+                "title": "TechCrunch",
+                "url": "https://proxy.cors.sh/https://techcrunch.com/feed",
+                "items": [],
+                "lastFetched": 0
+              },
+              {
+                "id": 4,
+                "title": "The Verge",
+                "url": "https://proxy.cors.sh/https://www.theverge.com/rss/index.xml",
+                "items": [],
+                "lastFetched": 0
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "title": "Open Source",
+            "feeds": [
+              {
+                "id": 5,
+                "title": "GitHub Trending",
+                "url": "https://proxy.cors.sh/https://github.com/trending",
+                "items": [],
+                "lastFetched": 0
+              },
+              {
+                "id": 6,
+                "title": "Hacker News",
+                "url": "https://proxy.cors.sh/https://hnrss.org/frontpage",
+                "items": [],
+                "lastFetched": 0
+              }
+            ]
+          }
+        ],
+        "activeTab": 0
+      }
+    },
+    {
+      "id": 6,
+      "type": "bookmark",
+      "title": "Private Space",
+      "icon": "Lock",
+      "order": 3,
+      "private": true,
+      "data": {
+        "tree": [
+          {
+            "id": 300,
+            "type": "bookmark",
+            "title": "Personal Email",
+            "url": "https://mail.google.com",
+            "description": "Personal Gmail inbox",
+            "icon": "https://mail.google.com/favicon.ico",
+            "keywords": [
+              "email",
+              "personal",
+              "gmail"
+            ]
+          },
+          {
+            "id": 301,
+            "type": "bookmark",
+            "title": "Google Drive",
+            "url": "https://drive.google.com",
+            "description": "Cloud storage and file management",
+            "icon": "https://drive.google.com/favicon.ico",
+            "keywords": [
+              "drive",
+              "cloud",
+              "storage"
+            ]
+          },
+          {
+            "id": 302,
+            "type": "bookmark",
+            "title": "Google Calendar",
+            "url": "https://calendar.google.com",
+            "description": "Personal schedule and calendar management",
+            "icon": "https://calendar.google.com/favicon.ico",
+            "keywords": [
+              "calendar",
+              "schedule"
+            ]
+          },
+          {
+            "id": 303,
+            "type": "bookmark",
+            "title": "Notion",
+            "url": "https://www.notion.so",
+            "description": "All-in-one workspace for notes and docs",
+            "icon": "https://www.notion.so/favicon.ico",
+            "keywords": [
+              "notes",
+              "wiki",
+              "docs"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 7,
+      "type": "bookmark",
+      "title": "Social & Media",
+      "icon": "Share2",
+      "order": 4,
+      "private": false,
+      "data": {
+        "tree": [
+          {
+            "id": 400,
+            "type": "bookmark",
+            "title": "Twitter / X",
+            "url": "https://x.com",
+            "description": "Social media platform for real-time conversations",
+            "icon": "https://x.com/favicon.ico",
+            "keywords": [
+              "twitter",
+              "social",
+              "media"
+            ]
+          },
+          {
+            "id": 401,
+            "type": "bookmark",
+            "title": "YouTube",
+            "url": "https://youtube.com",
+            "description": "Video sharing and streaming platform",
+            "icon": "https://youtube.com/favicon.ico",
+            "keywords": [
+              "youtube",
+              "video",
+              "streaming"
+            ]
+          },
+          {
+            "id": 402,
+            "type": "bookmark",
+            "title": "Dribbble",
+            "url": "https://dribbble.com",
+            "description": "Design inspiration and creative community",
+            "icon": "https://dribbble.com/favicon.ico",
+            "keywords": [
+              "design",
+              "dribbble",
+              "inspiration"
+            ]
+          },
+          {
+            "id": 403,
+            "type": "bookmark",
+            "title": "Unsplash",
+            "url": "https://unsplash.com",
+            "description": "Free high-quality stock photos",
+            "icon": "https://unsplash.com/favicon.ico",
+            "keywords": [
+              "images",
+              "photos",
+              "stock"
+            ]
+          },
+          {
+            "id": 404,
+            "type": "bookmark",
+            "title": "Iconify",
+            "url": "https://iconify.design",
+            "description": "Universal icon framework with thousands of icons",
+            "icon": "https://iconify.design/favicon.ico",
+            "keywords": [
+              "icons",
+              "iconify",
+              "svg"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 8,
+      "type": "bookmark",
+      "title": "Design Resources",
+      "icon": "",
+      "order": 5,
+      "private": false,
+      "data": {
+        "tree": [
+          {
+            "id": 500,
+            "type": "folder",
+            "title": "UI/UX",
+            "collapsed": false,
+            "children": [
+              {
+                "id": 501,
+                "type": "bookmark",
+                "title": "Figma",
+                "url": "https://www.figma.com",
+                "description": "Collaborative interface design tool",
+                "icon": "",
+                "keywords": [
+                  "figma",
+                  "design",
+                  "ui",
+                  "ux"
+                ]
+              },
+              {
+                "id": 502,
+                "type": "bookmark",
+                "title": "Dribbble",
+                "url": "https://dribbble.com",
+                "description": "Design inspiration and creative community",
+                "icon": "",
+                "keywords": [
+                  "dribbble",
+                  "design",
+                  "inspiration"
+                ]
+              },
+              {
+                "id": 503,
+                "type": "bookmark",
+                "title": "Behance",
+                "url": "https://www.behance.net",
+                "description": "Adobe's creative portfolio platform",
+                "icon": "",
+                "keywords": [
+                  "behance",
+                  "portfolio",
+                  "creative"
+                ]
+              },
+              {
+                "id": 504,
+                "type": "bookmark",
+                "title": "Awwwards",
+                "url": "https://www.awwwards.com",
+                "description": "Best web design trends and awards",
+                "icon": "",
+                "keywords": [
+                  "awwwards",
+                  "web",
+                  "design",
+                  "trends"
+                ]
+              },
+              {
+                "id": 505,
+                "type": "bookmark",
+                "title": "Mobbin",
+                "url": "https://mobbin.com",
+                "description": "Mobile app design patterns library",
+                "icon": "",
+                "keywords": [
+                  "mobbin",
+                  "mobile",
+                  "patterns"
+                ]
+              }
+            ]
+          },
+          {
+            "id": 506,
+            "type": "folder",
+            "title": "Icons & Assets",
+            "collapsed": false,
+            "children": [
+              {
+                "id": 507,
+                "type": "bookmark",
+                "title": "Iconify",
+                "url": "https://iconify.design",
+                "description": "Universal icon framework",
+                "icon": "",
+                "keywords": [
+                  "iconify",
+                  "icons",
+                  "svg"
+                ]
+              },
+              {
+                "id": 508,
+                "type": "bookmark",
+                "title": "Heroicons",
+                "url": "https://heroicons.com",
+                "description": "Beautiful hand-crafted SVG icons",
+                "icon": "",
+                "keywords": [
+                  "heroicons",
+                  "svg",
+                  "icons"
+                ]
+              },
+              {
+                "id": 509,
+                "type": "bookmark",
+                "title": "Lucide",
+                "url": "https://lucide.dev",
+                "description": "Beautiful consistent icon toolkit",
+                "icon": "",
+                "keywords": [
+                  "lucide",
+                  "icons",
+                  "svg"
+                ]
+              },
+              {
+                "id": 510,
+                "type": "bookmark",
+                "title": "Unsplash",
+                "url": "https://unsplash.com",
+                "description": "Free high-quality stock photos",
+                "icon": "",
+                "keywords": [
+                  "unsplash",
+                  "photos",
+                  "stock"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 9,
+      "type": "bookmark",
+      "title": "Cloud & Infrastructure",
+      "icon": "",
+      "order": 6,
+      "private": false,
+      "data": {
+        "tree": [
+          {
+            "id": 600,
+            "type": "folder",
+            "title": "Cloud Providers",
+            "collapsed": false,
+            "children": [
+              {
+                "id": 601,
+                "type": "bookmark",
+                "title": "AWS Console",
+                "url": "https://aws.amazon.com/console",
+                "description": "Amazon Web Services management console",
+                "icon": "",
+                "keywords": [
+                  "aws",
+                  "cloud",
+                  "amazon"
+                ]
+              },
+              {
+                "id": 602,
+                "type": "bookmark",
+                "title": "Google Cloud",
+                "url": "https://console.cloud.google.com",
+                "description": "Google Cloud Platform console",
+                "icon": "",
+                "keywords": [
+                  "gcp",
+                  "google",
+                  "cloud"
+                ]
+              },
+              {
+                "id": 603,
+                "type": "bookmark",
+                "title": "Azure Portal",
+                "url": "https://portal.azure.com",
+                "description": "Microsoft Azure cloud services portal",
+                "icon": "",
+                "keywords": [
+                  "azure",
+                  "microsoft",
+                  "cloud"
+                ]
+              },
+              {
+                "id": 604,
+                "type": "bookmark",
+                "title": "Vercel Dashboard",
+                "url": "https://vercel.com/dashboard",
+                "description": "Vercel deployment and analytics dashboard",
+                "icon": "",
+                "keywords": [
+                  "vercel",
+                  "deploy",
+                  "dashboard"
+                ]
+              },
+              {
+                "id": 605,
+                "type": "bookmark",
+                "title": "Cloudflare",
+                "url": "https://dash.cloudflare.com",
+                "description": "CDN, DNS and security services",
+                "icon": "",
+                "keywords": [
+                  "cloudflare",
+                  "cdn",
+                  "dns"
+                ]
+              }
+            ]
+          },
+          {
+            "id": 606,
+            "type": "folder",
+            "title": "Monitoring & Tools",
+            "collapsed": false,
+            "children": [
+              {
+                "id": 607,
+                "type": "bookmark",
+                "title": "Datadog",
+                "url": "https://app.datadoghq.com",
+                "description": "Cloud monitoring and analytics",
+                "icon": "",
+                "keywords": [
+                  "datadog",
+                  "monitoring",
+                  "apm"
+                ]
+              },
+              {
+                "id": 608,
+                "type": "bookmark",
+                "title": "Sentry",
+                "url": "https://sentry.io",
+                "description": "Error tracking and performance monitoring",
+                "icon": "",
+                "keywords": [
+                  "sentry",
+                  "errors",
+                  "monitoring"
+                ]
+              },
+              {
+                "id": 609,
+                "type": "bookmark",
+                "title": "Grafana",
+                "url": "https://grafana.com",
+                "description": "Open source analytics and monitoring",
+                "icon": "",
+                "keywords": [
+                  "grafana",
+                  "metrics",
+                  "dashboard"
+                ]
+              },
+              {
+                "id": 610,
+                "type": "bookmark",
+                "title": "Prometheus",
+                "url": "https://prometheus.io",
+                "description": "Systems monitoring and alerting toolkit",
+                "icon": "",
+                "keywords": [
+                  "prometheus",
+                  "metrics",
+                  "monitoring"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 10,
+      "type": "bookmark",
+      "title": "Learning & Docs",
+      "icon": "",
+      "order": 7,
+      "private": false,
+      "data": {
+        "tree": [
+          {
+            "id": 700,
+            "type": "folder",
+            "title": "Documentation",
+            "collapsed": false,
+            "children": [
+              {
+                "id": 701,
+                "type": "bookmark",
+                "title": "MDN Web Docs",
+                "url": "https://developer.mozilla.org",
+                "description": "Mozilla Developer Network web documentation",
+                "icon": "",
+                "keywords": [
+                  "mdn",
+                  "docs",
+                  "web",
+                  "mozilla"
+                ]
+              },
+              {
+                "id": 702,
+                "type": "bookmark",
+                "title": "React Docs",
+                "url": "https://react.dev",
+                "description": "Official React documentation",
+                "icon": "",
+                "keywords": [
+                  "react",
+                  "docs",
+                  "frontend"
+                ]
+              },
+              {
+                "id": 703,
+                "type": "bookmark",
+                "title": "Next.js Docs",
+                "url": "https://nextjs.org/docs",
+                "description": "Next.js framework documentation",
+                "icon": "",
+                "keywords": [
+                  "nextjs",
+                  "docs",
+                  "react"
+                ]
+              },
+              {
+                "id": 704,
+                "type": "bookmark",
+                "title": "Node.js Docs",
+                "url": "https://nodejs.org/docs",
+                "description": "Node.js runtime documentation",
+                "icon": "",
+                "keywords": [
+                  "nodejs",
+                  "docs",
+                  "backend"
+                ]
+              },
+              {
+                "id": 705,
+                "type": "bookmark",
+                "title": "Python Docs",
+                "url": "https://docs.python.org",
+                "description": "Official Python programming documentation",
+                "icon": "",
+                "keywords": [
+                  "python",
+                  "docs",
+                  "programming"
+                ]
+              }
+            ]
+          },
+          {
+            "id": 706,
+            "type": "folder",
+            "title": "Learning Platforms",
+            "collapsed": false,
+            "children": [
+              {
+                "id": 707,
+                "type": "bookmark",
+                "title": "freeCodeCamp",
+                "url": "https://www.freecodecamp.org",
+                "description": "Free coding curriculum and certifications",
+                "icon": "",
+                "keywords": [
+                  "freecodecamp",
+                  "learn",
+                  "coding"
+                ]
+              },
+              {
+                "id": 708,
+                "type": "bookmark",
+                "title": "Coursera",
+                "url": "https://www.coursera.org",
+                "description": "Online courses from top universities",
+                "icon": "",
+                "keywords": [
+                  "coursera",
+                  "courses",
+                  "learning"
+                ]
+              },
+              {
+                "id": 709,
+                "type": "bookmark",
+                "title": "Udemy",
+                "url": "https://www.udemy.com",
+                "description": "Online learning marketplace",
+                "icon": "",
+                "keywords": [
+                  "udemy",
+                  "courses",
+                  "skills"
+                ]
+              },
+              {
+                "id": 710,
+                "type": "bookmark",
+                "title": "LeetCode",
+                "url": "https://leetcode.com",
+                "description": "Coding interview preparation platform",
+                "icon": "",
+                "keywords": [
+                  "leetcode",
+                  "algorithms",
+                  "interview"
+                ]
+              },
+              {
+                "id": 711,
+                "type": "bookmark",
+                "title": "Exercism",
+                "url": "https://exercism.org",
+                "description": "Free coding practice and mentorship",
+                "icon": "",
+                "keywords": [
+                  "exercism",
+                  "practice",
+                  "mentorship"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 11,
+      "type": "rss",
+      "title": "Developer News",
+      "icon": "",
+      "order": 8,
+      "private": false,
+      "data": {
+        "tabs": [
+          {
+            "id": 4,
+            "title": "JavaScript",
+            "feeds": [
+              {
+                "id": 7,
+                "title": "JavaScript Weekly",
+                "url": "https://proxy.cors.sh/https://javascriptweekly.com/rss",
+                "items": [],
+                "lastFetched": 0
+              },
+              {
+                "id": 8,
+                "title": "Node Weekly",
+                "url": "https://proxy.cors.sh/https://nodeweekly.com/rss",
+                "items": [],
+                "lastFetched": 0
+              }
+            ]
+          },
+          {
+            "id": 5,
+            "title": "Web Platform",
+            "feeds": [
+              {
+                "id": 9,
+                "title": "Web.dev",
+                "url": "https://proxy.cors.sh/https://web.dev/feed.xml",
+                "items": [],
+                "lastFetched": 0
+              },
+              {
+                "id": 10,
+                "title": "Smashing Magazine",
+                "url": "https://proxy.cors.sh/https://www.smashingmagazine.com/feed",
+                "items": [],
+                "lastFetched": 0
+              }
+            ]
+          },
+          {
+            "id": 6,
+            "title": "Open Source",
+            "feeds": [
+              {
+                "id": 11,
+                "title": "GitHub Blog",
+                "url": "https://proxy.cors.sh/https://github.blog/feed",
+                "items": [],
+                "lastFetched": 0
+              },
+              {
+                "id": 12,
+                "title": "Open Source Blog",
+                "url": "https://proxy.cors.sh/https://opensource.com/feed",
+                "items": [],
+                "lastFetched": 0
+              }
+            ]
+          }
+        ],
+        "activeTab": 0
+      }
+    },
+    {
+      "id": 12,
+      "type": "bookmark",
+      "title": "Productivity",
+      "icon": "",
+      "order": 9,
+      "private": false,
+      "data": {
+        "tree": [
+          {
+            "id": 800,
+            "type": "folder",
+            "title": "Task & Notes",
+            "collapsed": false,
+            "children": [
+              {
+                "id": 801,
+                "type": "bookmark",
+                "title": "Notion",
+                "url": "https://www.notion.so",
+                "description": "All-in-one workspace for notes and docs",
+                "icon": "",
+                "keywords": [
+                  "notion",
+                  "notes",
+                  "workspace"
+                ]
+              },
+              {
+                "id": 802,
+                "type": "bookmark",
+                "title": "Obsidian",
+                "url": "https://obsidian.md",
+                "description": "Knowledge base that works on local Markdown files",
+                "icon": "",
+                "keywords": [
+                  "obsidian",
+                  "markdown",
+                  "knowledge"
+                ]
+              },
+              {
+                "id": 803,
+                "type": "bookmark",
+                "title": "Todoist",
+                "url": "https://todoist.com",
+                "description": "Task management and to-do list app",
+                "icon": "",
+                "keywords": [
+                  "todoist",
+                  "tasks",
+                  "productivity"
+                ]
+              },
+              {
+                "id": 804,
+                "type": "bookmark",
+                "title": "Trello",
+                "url": "https://trello.com",
+                "description": "Visual project management with boards",
+                "icon": "",
+                "keywords": [
+                  "trello",
+                  "kanban",
+                  "project"
+                ]
+              },
+              {
+                "id": 805,
+                "type": "bookmark",
+                "title": "Linear",
+                "url": "https://linear.app",
+                "description": "Streamlined issue tracking for software teams",
+                "icon": "",
+                "keywords": [
+                  "linear",
+                  "issues",
+                  "tracking"
+                ]
+              }
+            ]
+          },
+          {
+            "id": 806,
+            "type": "folder",
+            "title": "Communication",
+            "collapsed": false,
+            "children": [
+              {
+                "id": 807,
+                "type": "bookmark",
+                "title": "Slack",
+                "url": "https://slack.com",
+                "description": "Team communication and collaboration",
+                "icon": "",
+                "keywords": [
+                  "slack",
+                  "chat",
+                  "team"
+                ]
+              },
+              {
+                "id": 808,
+                "type": "bookmark",
+                "title": "Discord",
+                "url": "https://discord.com",
+                "description": "Voice, video and text communication platform",
+                "icon": "",
+                "keywords": [
+                  "discord",
+                  "community",
+                  "voice"
+                ]
+              },
+              {
+                "id": 809,
+                "type": "bookmark",
+                "title": "Zoom",
+                "url": "https://zoom.us",
+                "description": "Video conferencing and online meetings",
+                "icon": "",
+                "keywords": [
+                  "zoom",
+                  "video",
+                  "meeting"
+                ]
+              },
+              {
+                "id": 810,
+                "type": "bookmark",
+                "title": "Figma",
+                "url": "https://www.figma.com",
+                "description": "Collaborative design and prototyping",
+                "icon": "",
+                "keywords": [
+                  "figma",
+                  "design",
+                  "collaboration"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 13,
+      "type": "bookmark",
+      "title": "Finance & Crypto",
+      "icon": "",
+      "order": 10,
+      "private": true,
+      "data": {
+        "tree": [
+          {
+            "id": 900,
+            "type": "folder",
+            "title": "Markets",
+            "collapsed": false,
+            "children": [
+              {
+                "id": 901,
+                "type": "bookmark",
+                "title": "Yahoo Finance",
+                "url": "https://finance.yahoo.com",
+                "description": "Stock market news and portfolio tracking",
+                "icon": "",
+                "keywords": [
+                  "yahoo",
+                  "finance",
+                  "stocks"
+                ]
+              },
+              {
+                "id": 902,
+                "type": "bookmark",
+                "title": "Bloomberg",
+                "url": "https://www.bloomberg.com",
+                "description": "Global business and financial news",
+                "icon": "",
+                "keywords": [
+                  "bloomberg",
+                  "markets",
+                  "news"
+                ]
+              },
+              {
+                "id": 903,
+                "type": "bookmark",
+                "title": "CoinMarketCap",
+                "url": "https://coinmarketcap.com",
+                "description": "Cryptocurrency market capitalization rankings",
+                "icon": "",
+                "keywords": [
+                  "crypto",
+                  "bitcoin",
+                  "market"
+                ]
+              },
+              {
+                "id": 904,
+                "type": "bookmark",
+                "title": "CoinGecko",
+                "url": "https://www.coingecko.com",
+                "description": "Cryptocurrency data and analytics",
+                "icon": "",
+                "keywords": [
+                  "coingecko",
+                  "crypto",
+                  "analytics"
+                ]
+              }
+            ]
+          },
+          {
+            "id": 905,
+            "type": "folder",
+            "title": "Exchanges",
+            "collapsed": false,
+            "children": [
+              {
+                "id": 906,
+                "type": "bookmark",
+                "title": "Binance",
+                "url": "https://www.binance.com",
+                "description": "Global cryptocurrency exchange",
+                "icon": "",
+                "keywords": [
+                  "binance",
+                  "exchange",
+                  "trading"
+                ]
+              },
+              {
+                "id": 907,
+                "type": "bookmark",
+                "title": "Coinbase",
+                "url": "https://www.coinbase.com",
+                "description": "US-based cryptocurrency exchange",
+                "icon": "",
+                "keywords": [
+                  "coinbase",
+                  "exchange",
+                  "crypto"
+                ]
+              },
+              {
+                "id": 908,
+                "type": "bookmark",
+                "title": "Kraken",
+                "url": "https://www.kraken.com",
+                "description": "Secure cryptocurrency exchange platform",
+                "icon": "",
+                "keywords": [
+                  "kraken",
+                  "exchange",
+                  "trading"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

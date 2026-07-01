@@ -1,0 +1,163 @@
+{
+  "app": {
+    "name": "MyOrbit",
+    "footer": "© 2026 MyOrbit.top"
+  },
+  "header": {
+    "addWidget": "Add Widget",
+    "importJSON": "Import JSON",
+    "exportJSON": "Export JSON",
+    "importChrome": "Import Chrome Bookmarks",
+    "more": "More",
+    "lock": "Lock",
+    "unlock": "Unlock",
+    "switchToLight": "Switch to Light",
+    "switchToDark": "Switch to Dark"
+  },
+  "search": {
+    "placeholder": "Search bookmarks, keywords, RSS...",
+    "searchWith": "Search with"
+  },
+  "pin": {
+    "title": "Enter PIN",
+    "description": "Enter your PIN to access private widgets",
+    "incorrect": "Incorrect PIN. Try again.",
+    "unlock": "Unlock",
+    "skip": "Continue without unlocking",
+    "unlocked": "Unlocked successfully",
+    "locked": "Locked"
+  },
+  "widget": {
+    "add": "Add Widget",
+    "edit": "Edit Widget",
+    "delete": "Delete Widget",
+    "deleteConfirm": "Delete \"{title}\"?",
+    "title": "Title",
+    "icon": "Icon",
+    "private": "Private Widget",
+    "privateHint": "Requires PIN to view",
+    "type": "Widget Type",
+    "typeBookmark": "Bookmark",
+    "typeRSS": "RSS Feed",
+    "create": "Create Widget",
+    "save": "Save Changes",
+    "noWidgets": "No widgets yet",
+    "noWidgetsHint": "Add your first widget to get started",
+    "unknownType": "Unknown widget type",
+    "created": "Widget created",
+    "updated": "Widget updated",
+    "deleted": "Widget deleted",
+    "titleRequired": "Please enter a title",
+    "folderEmpty": "Folder is empty",
+    "addFolder": "Add Folder"
+  },
+  "bookmark": {
+    "add": "Add Bookmark",
+    "edit": "Edit Bookmark",
+    "delete": "Delete Bookmark",
+    "deleteConfirm": "Delete \"{title}\"?",
+    "title": "Title",
+    "url": "URL",
+    "iconUrl": "Icon URL (optional)",
+    "keywords": "Keywords (comma separated)",
+    "noBookmarks": "No bookmarks yet",
+    "addHint": "Add bookmark",
+    "added": "Bookmark added",
+    "updated": "Bookmark updated",
+    "deleted": "Bookmark deleted",
+    "titleUrlRequired": "Title and URL are required"
+  },
+  "rss": {
+    "addTab": "Add RSS Tab",
+    "tabTitle": "Tab Title",
+    "feedUrls": "Feed URLs",
+    "addFeed": "+ Add another feed",
+    "createTab": "Create RSS Tab",
+    "noItems": "No items yet",
+    "refresh": "Refresh",
+    "refreshFeeds": "Refresh feeds",
+    "noFeeds": "No RSS feeds configured",
+    "addRSSHint": "Add RSS tab",
+    "tabCreated": "RSS tab created",
+    "tabTitleRequired": "Please enter a tab title",
+    "failedCreateTab": "Failed to create tab",
+    "editTab": "Edit RSS Tab",
+    "deleteTab": "Delete Tab",
+    "deleteTabConfirm": "Delete tab \"{title}\"?",
+    "tabDeleted": "Tab deleted"
+  },
+  "folder": {
+    "title": "Folder",
+    "rssInline": "RSS feeds in folders are displayed inline"
+  },
+  "importExport": {
+    "pinRequired": "Please unlock PIN first",
+    "exported": "Data exported successfully",
+    "imported": "Data imported successfully",
+    "importedBookmarks": "Imported {count} bookmark folders",
+    "invalidJSON": "Invalid JSON file",
+    "failedImport": "Failed to import file",
+    "failedImportBookmarks": "Failed to import bookmarks"
+  },
+  "toast": {
+    "success": "Success",
+    "error": "Error",
+    "info": "Info"
+  },
+  "editMode": {
+    "enabled": "Edit mode enabled",
+    "disabled": "Edit mode disabled",
+    "pinRequired": "PIN required for edit mode"
+  },
+  "drawer": {
+    "addWidget": "Add Widget",
+    "editWidget": "Edit Widget",
+    "addBookmark": "Add Bookmark",
+    "editBookmark": "Edit Bookmark",
+    "addRSSTab": "Add RSS Tab",
+    "editRSSTab": "Edit RSS Tab",
+    "searchEngineManager": "Manage Search Engines"
+  },
+  "searchEngine": {
+    "manage": "Manage Search Engines",
+    "searchPlaceholder": "Search bookmarks or enter keywords...",
+    "dragHint": "Drag to reorder",
+    "add": "Add Custom Search Engine",
+    "edit": "Edit Search Engine",
+    "delete": "Delete Search Engine",
+    "deleteConfirm": "Delete \"{name}\"?",
+    "hideConfirm": "Hide this built-in engine from the list?",
+    "reset": "Reset to Default",
+    "resetSuccess": "Reset to default search engines",
+    "added": "Search engine added",
+    "updated": "Search engine updated",
+    "removed": "Search engine removed",
+    "name": "Name",
+    "iconUrl": "Icon URL",
+    "searchUrl": "Search URL",
+    "searchUrlHint": "Use %s as the search query placeholder",
+    "nameUrlRequired": "Name and Search URL are required",
+    "urlPlaceholder": "e.g. https://duckduckgo.com/?q=%s",
+    "iconPlaceholder": "e.g. https://duckduckgo.com/favicon.ico",
+    "namePlaceholder": "e.g. DuckDuckGo",
+    "urlMustContain": "Search URL must contain %s placeholder",
+    "badgeSystem": "Built-in",
+    "badgeCustom": "Custom",
+    "noEngines": "No search engines",
+    "save": "Save",
+    "cancel": "Cancel",
+    "confirm": "Confirm"
+  },
+  "drag": {
+    "moveSuccess": "Move successful",
+    "mergeSuccess": "Merged into folder",
+    "mergeHint": "📂 Merge",
+    "cannotMergeFolder": "Only bookmarks can be merged, not folders",
+    "onlyBookmarkWidget": "Only Bookmark Widgets can be operated",
+    "pinRequired": "PIN required",
+    "nodeNotFound": "Node not found",
+    "moveFailed": "Move failed",
+    "onlyFromBookmarkWidget": "Can only move from Bookmark Widget",
+    "cannotMergeSelf": "Cannot merge with itself"
+  }
+}

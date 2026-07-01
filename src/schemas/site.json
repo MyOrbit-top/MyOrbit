@@ -1,0 +1,47 @@
+{
+  "brand": {
+    "name": "MyOrbit",
+    "logoLight": "/images/logo.svg",
+    "logoDark": "/images/logo-white.svg"
+  },
+  "theme": {
+    "default": "dark"
+  },
+  "layout": {
+    "type": "masonry",
+    "maxWidgetHeight": 600
+  },
+  "searchEngines": [
+    {
+    "id": "google",
+    "name": "Google",
+    "icon": "https://www.gstatic.com/images/branding/searchlogo/ico/favicon.ico",
+    "url": "https://www.google.com/search?q=%s"
+    },
+    {
+    "id": "bing",
+    "name": "Bing",
+    "icon": "https://www.microsoft.com/favicon.ico?v2",
+    "url": "https://www.bing.com/search?q=%s"
+    },
+    {
+    "id": "baidu",
+    "name": "百度",
+    "icon": "https://www.baidu.com/favicon.ico",
+    "url": "https://www.baidu.com/s?wd=%s"
+    },
+    {
+    "id": "duckduckgo",
+    "name": "DuckDuckGo",
+    "icon": "https://duckduckgo.com/favicon.ico",
+    "url": "https://duckduckgo.com/?q=%s"
+    },
+    {
+    "id": "yandex",
+    "name": "Yandex",
+    "icon": "https://yastatic.net/s3/home-static/_/nova/ZKozwZ-k.png",
+    "url": "https://yandex.com/search/?text=%s"
+    }
+  ],
+  "footer": "© 2026 MyOrbit.top"
+}
